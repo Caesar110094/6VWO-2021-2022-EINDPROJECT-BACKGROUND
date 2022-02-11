@@ -9,7 +9,7 @@ class Block{
   
   render(){   
     noStroke()
-    fill("red")
+    fill(92, 245, 248, 140)
     rect(this.x,this.y,this.w,this.h)
     this.x = this.x - this.vx;
   }
